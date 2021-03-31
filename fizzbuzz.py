@@ -14,4 +14,4 @@ for v in lista:
         print('Buzz')
         continue
     
-    print(v)
+print(v)
