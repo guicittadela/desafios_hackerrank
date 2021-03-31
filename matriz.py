@@ -5,7 +5,7 @@
 #------ https://www.hackerrank.com/challenges/diagonal-difference/problem
 #
 arr = [
-    [1, 2, 3, 4],
+    [1, 2, 3, 8],
     [1, 2, 3, 4],
     [1, 2, 3, 4],
     [1, 2, 3, 4],
@@ -31,7 +31,7 @@ for idx, value in enumerate(arr):   # como o laço percorre uma matriz, precisam
                                     # vai diminuindo (linha 29). Aapós acessado o valor correto, o valor é adicionado e somado a d2.
 
 
-print(abs(d1 + d2))                 # Ao final dos dois laços, é feita a soma absoluta das diagonais. 
+print(abs(d1 + d2))                 # Ao final dos dois laços, é feita a diferença absoluta das diagonais. 
 
 
     
