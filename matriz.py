@@ -5,7 +5,7 @@
 #------ https://www.hackerrank.com/challenges/diagonal-difference/problem
 #
 arr = [
-    [1, 2, 3, 8],
+    [1, 2, 3, 4],
     [1, 2, 3, 4],
     [1, 2, 3, 4],
     [1, 2, 3, 4],

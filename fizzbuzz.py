@@ -12,7 +12,7 @@ for v in lista:
     if (v % 3 == 0 and v % 5 == 0 ):
         v = 'FizzBuzz'
         print(v)
-        lista.append(v)
+    
     elif (v % 3 == 0):
         
         v = ('Fizz')
