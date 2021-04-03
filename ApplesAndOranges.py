@@ -13,16 +13,16 @@ s = 7
 t = 11
 a = 5
 b = 15
-apples = [2, -2, 1]
-oranges = [1, 5, -6]
-m = 0 
-l = 0
-for v in apples:
-    if t >= (v + a) >=s:
-        m += 1  
-for v in oranges:
+apples = [2, -2, 1]           # posições das maçãs
+oranges = [1, 5, -6]          # posições das laranjas
+m = 0                         # contador de maçãs
+l = 0                         #contador de laranjas
+for v in apples:              # laço que vai contar a quantidade de maçãs que caem no range (s:t)
+    if t >= (v + a) >=s:      # soma o cada valor da lista 'apples' com valor de 'a' (posição da macieira), e caso seja um valor >=s e <= a t, é feito a soma 'm = m + 1' .
+        m += 1      
+for v in oranges:             # mesmo caso do laço acima, porém com os valores de 'b' e 'oranges'.
     if t >= (v + b) >=s:
         l += 1  
 
-print(m)
+print(m)                      # ao final dos dois laços monstramos a quantidade de maçãs (m) e laranjas (l).
 print(l)
